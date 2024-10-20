@@ -1,0 +1,60 @@
+Open the home directory via the terminal
+cd ~
+
+Show current directory path
+pwd
+
+Create a directory named test1 inside this folder
+mkdir test1
+
+Go to directory test1
+cd test1 
+
+Create file 1,2 and 3 inside directory test1
+touch 1 2 3
+
+Check directory test1 content
+ls 
+
+Go to the home directory
+cd 
+
+Create directory test2 inside home directory
+mkdir test2
+
+Delete directory test2
+rmdir test2
+
+Delete file 2 from directory test1
+rm test1/2
+
+Create a folder test3 in the home directory and add two files to it
+mkdir ~/test3
+touch ~/test3/file1 ~/test3/file2
+
+Delete directory test3
+rm -r ~/test3
+
+Create a test4 folder in the home directory
+mkdir ~/test4
+
+Move files 1 and 3 from the test1 folder to the test4 folder
+mv test1/1 test1/3 test4/
+
+Add three lines with the words "line" to file 1
+echo -e "line\nline\nline" >> 1
+
+View the contents of file 1
+cat 1
+
+Add three lines with the word "line" to file 3
+echo -e "line\nline\nline" >> 3
+
+View the contents of two files (1 and 3) at once
+cat 1 3
+
+Using one of the editors, replace all lines in file 1
+nano 1 
+
+
+
